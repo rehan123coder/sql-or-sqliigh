@@ -13,3 +13,6 @@ SELECT* FROM student WHERE student_id=2;
 SELECT* FROM student WHERE name='rehan' or school='opf';
 UPDATE student SET name='asx'WHERE student_id=3;
 DELETE FROM student WHERE name='ehan';
+SELECT  COUNT(city) FROM student; 
+SELECT SUM(student_id) FROM student ;
+SELECT AVG(student_id) FROM student ;
