@@ -16,3 +16,4 @@ DELETE FROM student WHERE name='ehan';
 SELECT  COUNT(city) FROM student; 
 SELECT SUM(student_id) FROM student ;
 SELECT AVG(student_id) FROM student ;
+   
